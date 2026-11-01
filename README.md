@@ -1,5 +1,7 @@
 # 🍅 Pixel Pomodoro
 
+[![CI](https://github.com/blackdalc7/pixel-pomodoro/actions/workflows/ci.yml/badge.svg)](https://github.com/blackdalc7/pixel-pomodoro/actions/workflows/ci.yml)
+
 A retro, pixel-art Pomodoro timer that runs in the browser. The tomato fills up as you focus, turns into a coffee cup on breaks, and plays a little 8-bit chime when a session ends.
 
 I built it because I kept losing track of time while studying, and I wanted a small project to practise plain JavaScript (no frameworks), ES modules, the Canvas API and the Web Audio API.
