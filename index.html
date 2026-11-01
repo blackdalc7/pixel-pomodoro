@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixel Pomodoro</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body data-mode="focus">
+    <main>
+      <h1>PIXEL POMODORO</h1>
+      <nav>
+        <button data-mode="focus" class="active">focus</button>
+        <button data-mode="shortBreak">short</button>
+        <button data-mode="longBreak">long</button>
+      </nav>
+      <canvas id="sprite" width="160" height="160" aria-hidden="true"></canvas>
+      <div id="time">25:00</div>
+      <div id="label">focus time</div>
+      <div class="controls">
+        <button id="start" class="primary">start</button>
+        <button id="reset">reset</button>
+      </div>
+      <div id="streak"></div>
+      <footer>space = start/pause · r = reset</footer>
+    </main>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
